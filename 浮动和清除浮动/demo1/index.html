@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>clear 清除浮动</title>
+  <style type="text/css">
+  .parent{
+    background:gray;
+  }
+  .A{
+    background-color: bisque;
+    width:100px;
+    height:150px;
+    float: left;
+    margin-top:10px;
+  }
+  .B{
+    background-color:aqua;
+    width:150px;
+    height:100px;
+    float: right;
+    margin-top:20px;
+  }
+  .clear{
+    clear: left;
+  }
+  </style>
+</head>
+
+<body>
+  <div class="parent">
+    我是父容器
+    <div class="A">
+      div A
+    </div>
+    <div class="B">
+      divB
+    </div>
+    <div class="clear"></div>
+  </div>
+</body>
+
+</html>
